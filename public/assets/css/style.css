@@ -64,7 +64,7 @@ li {
 
 .hamburger {
     display: none;
-    
+
 }
 
 .bar {
@@ -139,6 +139,7 @@ button {
 .title {
     color: white;
 }
+
 .title-name {
     color: white;
     font-size: 32px;
@@ -368,13 +369,35 @@ h3 {
 
 /* Contact Section */
 
+.name-box, .email-box, .message-box {
+    margin-bottom: 30px;
+}
+
+.name-box {
+    margin-top: 20px;
+}
+
+
+#contact-form {
+    margin: 80px 0 20px 100px;
+    color: white;
+}
+
+#submit {
+    color: black;
+}
+
+
 #contact {
-    padding-top: 50px;
-    margin-left: 169px;
+    margin: 0 0 20px 169px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
+    padding-bottom: 30px;
     display: flexbox;
+    color: white;
 }
+
+
 
 #contact div {
     display: flex;
@@ -384,6 +407,11 @@ h3 {
     justify-content: space-evenly;
 }
 
+/* Resume Section */
+
+#resume-section {
+    color: white;
+}
 footer {
     height: 64px;
     margin-left: 169px;
@@ -417,6 +445,7 @@ footer {
         border-left: solid 3px #43464F;
     }
 }
+
 @media screen and (max-width: 851px) {
     #bio-info {
         width: 60vw;
@@ -569,10 +598,12 @@ footer {
         vertical-align: top;
         margin-left: 20px;
     }
-#bio-info {
-    text-align: center;
-    margin: 20px auto;
-}
+
+    #bio-info {
+        text-align: center;
+        margin: 20px auto;
+    }
+
     .hero {
         display: flex;
         background-color: #43464F;

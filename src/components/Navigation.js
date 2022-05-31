@@ -7,36 +7,52 @@ function Navigation(props) {
         document.title = currentPage
       }, [currentPage]);
 
- 
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+
+      function mobileMenu() {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+      }
+      const navLink = document.querySelectorAll(".nav-link");
+
+      navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+      function closeMenu() {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+      }
   return (
-    <nav class="navbar">
-            <a href="#" class="nav-logo">David</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a className={currentPage === 'About' ? 'navActive' : ''} class="nav-link">
+    <nav className="navbar">
+            <a href="#" className="nav-logo">David</a>
+            <ul className="nav-menu">
+                <li className="nav-item">
+                    <div className="nav-link">
                             <a onClick={() => setCurrentPage('About')}>About</a>
-                        </a>
+                        </div>
                 </li>
-                <li class="nav-item">
-                    <a className={currentPage === 'Work' ? 'navActive' : ''} class="nav-link">
+                <li className="nav-item">
+                    <div className="nav-link">
                        <a onClick={() => setCurrentPage('Work')}>Work</a>
-                        </a>
+                        </div>
                 </li>
-                <li class="nav-item">
-                    <a className={currentPage === 'Contact' ? 'navActive' : ''} class="nav-link">
+                <li className="nav-item">
+                    <div className="nav-link">
                     <a onClick={() => setCurrentPage('Contact')}>Contact</a>
                         
-                        </a>
+                        </div>
                 </li>
-                <li class="nav-item">
-                    <a href="https://drive.google.com/file/d/1dysq8fhNzEsUB7qBTpyaWzLDhzo48Znb/view?usp=sharing"
-                        class="nav-link">Resume</a>
+                <li className="nav-item">
+                <a className="nav-link">
+                <a onClick={() => setCurrentPage('Resume')}>Resume</a>
+                </a>
                 </li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div className="hamburger" onClick={mobileMenu}>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
         </nav>
   )

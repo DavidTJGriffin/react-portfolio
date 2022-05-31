@@ -5,7 +5,7 @@ function Header(props) {
     const { currentPage, setCurrentPage } = props;
 
   return (
-    <header class="header">
+    <header className="header">
         <div className='navigation'>
            <Navigation
            currentPage={currentPage}
