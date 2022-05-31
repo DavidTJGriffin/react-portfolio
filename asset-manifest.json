@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.6e8eef37.js",
+    "static/media/aboutPicture.jpg": "/react-portfolio/static/media/aboutPicture.b6db521b32cffecb6fea.jpg",
+    "static/media/mysqlLogo.jpg": "/react-portfolio/static/media/mysqlLogo.44d4024792c30ce5258c.jpg",
+    "static/media/mongodbLogo.png": "/react-portfolio/static/media/mongodbLogo.5fb69eb21680dd2032b1.png",
+    "static/media/nodejsLogo.png": "/react-portfolio/static/media/nodejsLogo.c2e22c634a7336cbe298.png",
+    "static/media/jqueryLogo.png": "/react-portfolio/static/media/jqueryLogo.facd4a0f077ae6b455ca.png",
+    "static/media/cssLogo.png": "/react-portfolio/static/media/cssLogo.4e67641bb68b658d9b2b.png",
+    "static/media/reactjsLogo.png": "/react-portfolio/static/media/reactjsLogo.e86019b0408fb2497473.png",
+    "static/media/bootstrapLogo.png": "/react-portfolio/static/media/bootstrapLogo.c5dedb5348b058d36661.png",
+    "static/media/javascriptLogo.png": "/react-portfolio/static/media/javascriptLogo.00dd94cc70c18976b9e7.png",
+    "static/media/htmlLogo.png": "/react-portfolio/static/media/htmlLogo.9712efef082adfe0f23b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.6e8eef37.js.map": "/react-portfolio/static/js/main.6e8eef37.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6e8eef37.js"
+  ]
+}
