@@ -207,7 +207,7 @@ main button {
 
 /* About Section */
 #about {
-    padding-top: 50px;
+    padding-top: 15px;
     margin-left: 103px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
@@ -393,6 +393,7 @@ h3 {
     border-left: solid 3px #43464F;
     padding-left: 15px;
     padding-bottom: 30px;
+    padding-top: 15px;
     display: flexbox;
     color: white;
 }
@@ -411,6 +412,17 @@ h3 {
 
 #resume-section {
     color: white;
+    margin: 0 0 20px 169px;
+    border-left: solid 3px #43464F;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    display: flexbox;
+    color: white;
+}
+
+.resume-link {
+    color: #E31A6C;
 }
 footer {
     height: 64px;
