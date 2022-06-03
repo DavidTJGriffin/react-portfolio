@@ -474,7 +474,7 @@ footer {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     .nav-menu {
-        position: fixed;
+        position: absolute;
         left: -100%;
         top: 3rem;
         flex-direction: column;
