@@ -400,8 +400,18 @@ h3 {
     display: flexbox;
 }
 
-.resume-link {
-    color: #E31A6C;
+.res-link {
+    padding-bottom: 20px;
+}
+
+.resume-img {
+    width: 90vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#resume-title {
+    padding-bottom: 20px;
 }
 footer {
     height: 64px;
