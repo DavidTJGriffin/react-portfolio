@@ -1,18 +1,22 @@
 import React from 'react'
+import phoneIcon from '../assets/images/phoneIcon.svg'
+import mailIcon from '../assets/images/mailIcon.svg'
+import githubLogo from '../assets/images/githubLogo.svg'
+import linkedinLogo from '../assets/images/linkedinLogo.svg'
 
-export default function footer() {
+function Footer() {
   return (
-    null
-    // <h1 class="title-name">CONTACT</h1>
-    // <br>
-    // <div id="contact-list">
-    //     <a class="contact-info" href="tel:+16233414122"><img src="./assets/images/icons8-phone.svg" alt=""></a>
-    //     <a class="contact-info" href="mailto:david.dtjg2001@gmail.com"><img src="./assets/images/icons8-mail.svg"
-    //             alt=""></a>
-    //     <a class="contact-info" href="https://github.com/DavidTJGriffin"><img
-    //             src="./assets/images/icons8-github.svg" alt=""></a>
-    //     <a class="contact-info" href="https://www.linkedin.com/in/david-griffin-a51193195/"><img
-    //             src="./assets/images/icons8-linkedin.svg" alt=""></a>
-    // </div>
+    <section id="contact">
+      
+
+      <div id="contact-list">
+        <a className="contact-info" href="tel:+16233414122"><img src={phoneIcon} alt="" /></a>
+        <a className="contact-info" href="mailto:david.dtjg2001@gmail.com"><img src={mailIcon} alt="" /></a>
+        <a className="contact-info" href="https://github.com/DavidTJGriffin"><img src={githubLogo} alt="" /></a>
+        <a className="contact-info" href="https://www.linkedin.com/in/david-griffin-a51193195/"><img src={linkedinLogo} alt="" /></a>
+      </div>
+    </section>
   )
 }
+
+export default Footer;

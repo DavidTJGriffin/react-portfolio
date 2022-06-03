@@ -22,7 +22,7 @@ function App() {
       {currentPage === 'Contact' ? <Contact></Contact> : ''}
       {currentPage === 'Footer' ? <Footer></Footer> : ''}
       {currentPage === 'Resume' ? <Resume></Resume> : ''}
-    
+    <Footer/ >
   
 </div>
 );
