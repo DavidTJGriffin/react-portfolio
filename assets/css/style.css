@@ -143,6 +143,7 @@ button {
 .title-name {
     color: white;
     font-size: 32px;
+    
 }
 
 /* Hero Section */
@@ -207,7 +208,7 @@ main button {
 
 /* About Section */
 #about {
-    padding-top: 15px;
+    margin-top: 20px;
     margin-left: 103px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
@@ -254,7 +255,7 @@ main button {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    margin-top: 20px;
     margin-left: 136px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
@@ -271,6 +272,7 @@ main button {
     position: relative;
     min-height: 45vh;
     border: solid 2px #E31A6C;
+    background-size: cover;
 }
 
 .small-projects {
@@ -345,28 +347,6 @@ h3 {
     font-size: 12px;
 }
 
-#copyright-timer {
-    background-image: url("../images/copyright-timer-screenshot.png");
-}
-
-
-#led-wall {
-    background-image: url("../images/favdash-screenshot.png");
-}
-
-#calculator {
-    background-image: url("../images/calculator-project.jpg");
-}
-
-#pastel {
-    background-image: url("../images/pastel-puzzles.jpg");
-}
-
-#run-buddy {
-    background-image: url("../images/run-buddy-webpage.png");
-}
-
-
 /* Contact Section */
 
 .name-box, .email-box, .message-box {
@@ -389,11 +369,11 @@ h3 {
 
 
 #contact {
-    margin: 0 0 20px 169px;
+    margin: 40px 0 20px 169px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
     padding-bottom: 30px;
-    padding-top: 15px;
+    margin-top: 20px;
     display: flexbox;
     color: white;
 }
@@ -422,6 +402,12 @@ h3 {
 
 .resume-link {
     color: #E31A6C;
+}
+
+.resume-img {
+    width: 90vw;
+    height: 100vh;
+    background-size: cover;
 }
 footer {
     height: 64px;
@@ -471,25 +457,14 @@ footer {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 804px) {
-    #led-wall {
-        background-image: url("../images/led-wall-project.jpg");
-        min-width: 80vw;
-    }
 
-    #calculator {
-        background-image: url("../images/calculator-project.jpg");
+    .project {
         min-width: 80vw;
     }
-
-    #pastel {
-        background-image: url("../images/pastel-puzzles.jpg");
+    .project1 {
         min-width: 80vw;
     }
-
-    #run-buddy {
-        background-image: url("../images/run-buddy-webpage.png");
-        min-width: 80vw;
-    }
+   
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -549,23 +524,10 @@ footer {
     }
 
 
-    #led-wall {
-        background-image: url("../images/led-wall-project.jpg");
+    .project {
         min-width: 80vw;
     }
-
-    #calculator {
-        background-image: url("../images/calculator-project.jpg");
-        min-width: 80vw;
-    }
-
-    #pastel {
-        background-image: url("../images/pastel-puzzles.jpg");
-        min-width: 80vw;
-    }
-
-    #run-buddy {
-        background-image: url("../images/run-buddy-webpage.png");
+    .project1 {
         min-width: 80vw;
     }
 
