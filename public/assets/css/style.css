@@ -413,12 +413,19 @@ h3 {
 #resume-title {
     padding-bottom: 20px;
 }
+
+
 footer {
     height: 64px;
     margin-left: 169px;
     border-left: solid 3px #43464F;
 
 }
+
+.name-box, .email-box, .message-box {
+    margin-bottom: 30px;
+
+  }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {

@@ -15,7 +15,7 @@ function Contact() {
         
         <div className='name-box'>
             <label htmlFor="name">Name:</label>
-            <br></br>
+            
             <input type="text" defaultValue={name}  name="name" />
         </div>
         
