@@ -143,7 +143,7 @@ button {
 .title-name {
     color: white;
     font-size: 32px;
-    
+
 }
 
 /* Hero Section */
@@ -390,18 +390,10 @@ h3 {
 
 /* Resume Section */
 
-#resume-section {
-    color: white;
-    margin: 0 0 20px 169px;
-    border-left: solid 3px #43464F;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    display: flexbox;
-}
 
 .res-link {
     padding-bottom: 20px;
+    color: white;
 }
 
 .resume-img {
@@ -425,7 +417,7 @@ footer {
 .name-box, .email-box, .message-box {
     margin-bottom: 30px;
 
-  }
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -472,10 +464,11 @@ footer {
     .project {
         min-width: 80vw;
     }
+
     .project1 {
         min-width: 80vw;
     }
-   
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -538,6 +531,7 @@ footer {
     .project {
         min-width: 80vw;
     }
+
     .project1 {
         min-width: 80vw;
     }
