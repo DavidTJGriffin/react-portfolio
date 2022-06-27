@@ -36,6 +36,8 @@ function Contact() {
 
         <button id='submit' type="submit">Submit</button>
     </form>
+
+
 </section>
   )
 }
