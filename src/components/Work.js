@@ -15,7 +15,7 @@ function Work() {
                     <h3>L3tters</h3>
                     <p>React/Socket.io/GraphQL</p>
                 </div>
-                <a href="https://l3tters.herokuapp.com/" target="_blank"></a>
+                <a href="www.l3tters.com" target="_blank"></a>
             </div>
 
         <div className="small-projects">
