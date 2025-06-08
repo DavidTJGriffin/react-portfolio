@@ -9,7 +9,8 @@ function Contact() {
     <section>
     
 
-    <form id="contact">
+    {/* <form id="contact"> */}
+    <form id="contact-form">
         <div></div>
         <h1 className="title-name">CONTACT</h1>
         
