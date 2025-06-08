@@ -9,7 +9,12 @@ function Resume() {
         <div className="project-name">
           <h3>Resume</h3>
         </div>
-        <a href={process.env.PUBLIC_URL + '/assets/images/David_Griffin_-_Full_Stack_Web_Developer.pdf'}></a>
+        <a
+          href={process.env.PUBLIC_URL + '/assets/images/David_Griffin_-_Full_Stack_Web_Developer.pdf'}
+          target="_blank"
+          rel="noreferrer"
+          className="resume-link"
+        >View Resume</a>
       </div>
 
     </div>
