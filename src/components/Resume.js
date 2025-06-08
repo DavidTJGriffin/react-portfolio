@@ -14,7 +14,7 @@ function Resume() {
           target="_blank"
           rel="noreferrer"
           className="resume-link"
-        >View Resume</a>
+        ></a>
       </div>
 
     </div>
