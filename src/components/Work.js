@@ -15,7 +15,14 @@ function Work() {
                     <h3>L3tters</h3>
                     <p>React/Socket.io/GraphQL</p>
                 </div>
-                <a href="http://www.l3tters.com" target="_blank"></a>
+                <a
+                  href="http://www.l3tters.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit L3tters project"
+                >
+                  <span className="visually-hidden">L3tters project</span>
+                </a>
             </div>
 
         <div className="small-projects">
@@ -25,7 +32,14 @@ function Work() {
                 <h3>Copyright Timer</h3>
                 <p>Foundation/Wikidata API/Google Calendar API</p>
             </div>
-            <a href="https://moses-ian.github.io/copyright-timer/" target="_blank"></a>
+            <a
+              href="https://moses-ian.github.io/copyright-timer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Copyright Timer project"
+            >
+              <span className="visually-hidden">Copyright Timer project</span>
+            </a>
         </div>
 
             <div className="project" style={{ backgroundImage: `url(${favdashScreenshot})` }}>
@@ -33,7 +47,14 @@ function Work() {
                     <h3>Favdash</h3>
                     <p>Node.js/MySql/Express.js</p>
                 </div>
-                <a href="https://fav-dash.herokuapp.com/" target="_blank"></a>
+                <a
+                  href="https://fav-dash.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Favdash project"
+                >
+                  <span className="visually-hidden">Favdash project</span>
+                </a>
             </div>
 
           
@@ -43,7 +64,14 @@ function Work() {
                     <h3>Code Quiz</h3>
                     <p>Javascript/CSS</p>
                 </div>
-                <a href="https://davidtjgriffin.github.io/javascript-coding-quiz/" target="_blank"></a>
+                <a
+                  href="https://davidtjgriffin.github.io/javascript-coding-quiz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Code Quiz project"
+                >
+                  <span className="visually-hidden">Code Quiz project</span>
+                </a>
             </div>
 
             <div className="project" style={{ backgroundImage: `url(${runbuddyScreenshot})` }}>
@@ -51,7 +79,14 @@ function Work() {
                     <h3>Run Buddy</h3>
                     <p>HTML/CSS</p>
                 </div>
-                <a href="https://davidtjgriffin.github.io/run-buddy/" target="_blank"></a>
+                <a
+                  href="https://davidtjgriffin.github.io/run-buddy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit Run Buddy project"
+                >
+                  <span className="visually-hidden">Run Buddy project</span>
+                </a>
             </div>
         </div>
     </div>
