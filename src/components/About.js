@@ -22,16 +22,17 @@ function About() {
                 </p>
                 <br></br>
                 <p>
-                    I was born in Colorado Springs and raised between California and Arizona, where I moved often and faced poverty early on. What never left me was that instinct to ask why—and to build systems that made life just a bit more navigable. I first expressed that in music, becoming first chair clarinet and earning a full scholarship to NAU’s summer music camp. Later, I channeled that mindset into technology, completing a full-stack boot camp and exploring AI, cloud computing, and networking through hands-on projects that demanded real troubleshooting, not just tutorials.
+                    I was born in Colorado Springs and raised between California and Arizona, where I moved often and learned to adapt to constant change. What never left me was that instinct to ask why and to build systems that made life just a bit more navigable. I first expressed that in music, becoming first chair clarinet and earning a full scholarship to NAU’s summer music camp. Later, I channeled that mindset into technology, completing a full-stack boot camp and exploring AI, cloud computing, and networking through hands-on projects that demanded real troubleshooting, not just tutorials.
                 </p>
                 <br></br>
                 <p>
-                    In 2024, I changed my major to Artificial Intelligence and Machine Learning, and the very next year, I joined Year Up United. For the first time, I had a structure—a launchpad to turn skills into systems and purpose into practice. I’ve since led national student initiatives, earned technical certifications, and designed my own mind-mapping study system to build cross-layer knowledge in IT.
+                    In 2024, I changed my major to Artificial Intelligence and Machine Learning, and the very next year, I joined Year Up United. For the first time, I had a structure and a launchpad to turn skills into systems and purpose into practice. I’ve since led national student initiatives, earned technical certifications, and designed my own mind-mapping study system to build cross-layer knowledge in IT.
                 </p>
                 <br></br>
                 <p>
-                    Now, I’m focused on building a career at the intersection of systems integration, cloud infrastructure, and ethical AI. I believe technology should empower people, not replace them—and I’m here to design the systems that make that possible.
+                    Now, I’m focused on building a career at the intersection of systems integration, cloud infrastructure, and ethical AI. I believe technology should empower people, not replace them. I’m here to design the systems that make that possible.
                 </p>
+
 
                 <br />
             </section>
