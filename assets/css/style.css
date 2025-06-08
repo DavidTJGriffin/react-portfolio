@@ -353,8 +353,29 @@ h3 {
 
 /* Contact Section */
 
+
 .name-box, .email-box, .message-box {
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1190px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bio-info {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    #david-picture {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70vw;
+        object-fit: contain;
+        display: block;
+    }
 }
 
 .name-box {
@@ -377,8 +398,6 @@ h3 {
     border-left: solid 3px #43464F;
     padding-left: 15px;
     padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 20px;
     display: flexbox;
     color: white;
 }
@@ -457,11 +476,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 851px) {
-    #bio-info {
-        width: 50vw;
-    }
-}
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 804px) {
@@ -582,10 +596,6 @@ footer {
         margin-left: 20px;
     }
 
-    #bio-info {
-        text-align: center;
-        margin: 20px auto;
-    }
 
     .hero {
         display: flex;
@@ -620,12 +630,6 @@ footer {
         color: black;
     }
 
-    #david-picture {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70vw;
-        object-fit: contain;
-    }
 
     .projects {
         display: flex;
