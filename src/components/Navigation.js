@@ -9,7 +9,18 @@ function Navigation(props) {
       const hamburger = document.querySelector(".hamburger");
       const navMenu = document.querySelector(".nav-menu");
       const navLink = document.querySelectorAll(".nav-link");
-      const [isActive, setActive] = useState("true");
+      const [isActive, setActive] = useState(true);
+
+      useEffect(() => {
+        const handleResize = () => {
+          if (window.innerWidth > 768) {
+            setActive(true);
+          }
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
 
       const handleToggle = () => {
         setActive(!isActive);

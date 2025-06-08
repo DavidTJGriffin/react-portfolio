@@ -44,7 +44,10 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    padding-top: .05rem;
+    padding-right: 30px;
     background-color: #313338;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
@@ -208,7 +211,7 @@ main button {
 
 /* About Section */
 #about {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 103px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
@@ -255,7 +258,7 @@ main button {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 136px;
     border-left: solid 3px #43464F;
     padding-left: 15px;
@@ -298,6 +301,7 @@ main button {
 
 .projects h1 {
     color: white;
+    flex-basis: 100%;
 }
 
 .project:hover {
@@ -373,6 +377,7 @@ h3 {
     border-left: solid 3px #43464F;
     padding-left: 15px;
     padding-bottom: 30px;
+    padding-top: 30px;
     margin-top: 20px;
     display: flexbox;
     color: white;
@@ -429,7 +434,7 @@ footer {
     .projects {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 50px;
+        padding-top: 0px;
         margin-left: 111px;
         border-left: solid 3px #43464F;
         padding-left: 15px;
@@ -537,7 +542,7 @@ footer {
     }
 
     #about {
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left: 35px;
         padding-top: 0px;
     }
@@ -557,7 +562,7 @@ footer {
 
     #contact {
         margin-left: 75px;
-        padding-top: 0px;
+        
     }
 
     footer {
@@ -633,7 +638,7 @@ footer {
 
     #contact {
         margin-left: 50px;
-        padding-bottom: 48px;
+        
     }
 
     footer {
