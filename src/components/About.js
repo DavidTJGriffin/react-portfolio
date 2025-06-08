@@ -15,7 +15,7 @@ function About() {
     return (
         <div className="title" id="about">
             <h1 className="title-name">ABOUT</h1>
-            <img id='david-picture' src={aboutPicture} alt="Picture of David" />
+            <img id='david-picture' src={aboutPicture} alt="David Griffin headshot" />
             <section id="bio-info">
                 <p>
                     I’ve always been driven by curiosity. From rebuilding Linux systems from scratch to reverse-engineering traffic in Wireshark, I’ve found clarity in complexity and meaning in structure. But that drive started long before I ever touched a terminal.
@@ -35,18 +35,17 @@ function About() {
 
                 <br />
             </section>
-
+            <h1 id="technologies-header">TECHNOLOGIES</h1>
             <div id="logo-box">
-                <img className='logo-img' src={javascriptLogo} alt="" />
-                <img className='logo-img' src={bootstrapLogo} alt="" />
-                <img className='logo-img' src={mysqlLogo} alt="" />
-                <img className='logo-img' src={mongodbLogo} alt="" />
-                <img className='logo-img' src={jqueryLogo} alt="" />
-                <img className='logo-img' src={htmlLogo} alt="" />
-                <img className='logo-img' src={reactjsLogo} alt="" />
-                <img className='logo-img' src={nodejsLogo} alt="" />
-                <img className='logo-img' src={cssLogo} alt="" />
-
+                <img className='logo-img' src={javascriptLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={bootstrapLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={mysqlLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={mongodbLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={jqueryLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={htmlLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={reactjsLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={nodejsLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={cssLogo} alt="" aria-hidden="true" />
             </div>
 
         </div>

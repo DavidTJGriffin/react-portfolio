@@ -113,7 +113,8 @@ li {
 
 
 /* Buttons */
-nav li a, .logo {
+nav li a,
+.logo {
     font-weight: 500;
     color: #edf0f1;
     text-decoration: none;
@@ -244,9 +245,14 @@ main button {
 }
 
 #logo-box {
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#technologies-header {
+    padding-top: 50px
 }
 
 /* Work Section */
@@ -354,7 +360,9 @@ h3 {
 /* Contact Section */
 
 
-.name-box, .email-box, .message-box {
+.name-box,
+.email-box,
+.message-box {
     margin-bottom: 30px;
 }
 
@@ -366,8 +374,16 @@ h3 {
 
     #bio-info {
         text-align: center;
+        width: 90%;
+        /* Wider text */
+        max-width: 900px;
+        /* Optional: prevent it from getting too wide on large screens */
         margin: 20px auto;
+        /* Keeps it centered */
+        padding: 0 20px;
+        /* Optional: some breathing room inside */
     }
+
 
     #david-picture {
         margin-left: auto;
@@ -455,7 +471,9 @@ footer {
 
 }
 
-.name-box, .email-box, .message-box {
+.name-box,
+.email-box,
+.message-box {
     margin-bottom: 30px;
 
 }
@@ -593,7 +611,7 @@ footer {
 
     #contact {
         margin-left: 75px;
-        
+
     }
 
     footer {
@@ -659,7 +677,7 @@ footer {
 
     #contact {
         margin-left: 50px;
-        
+
     }
 
     footer {
