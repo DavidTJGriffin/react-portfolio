@@ -34,31 +34,31 @@ function Navigation(props) {
     //     navMenu.classList.remove("active");
     // }
       
-  return (
-      
+    return (
+
     <nav className="navbar">
-            <a href="#" className="nav-logo">David</a>
+            <button type="button" className="nav-logo" onClick={() => setCurrentPage('About')}>David</button>
             <ul className={`nav-menu ${isActive ?  null : "active"}`}>
                 <li className="nav-item" onClick={handleToggle}>
-                    <div className="nav-link">
-                            <a onClick={() => setCurrentPage('About')}>About</a>
-                        </div>
+                    <button type="button" className="nav-link" onClick={() => setCurrentPage('About')}>
+                        About
+                    </button>
                 </li>
                 <li className="nav-item" onClick={handleToggle}>
-                    <div className={`nav-link ${isActive ? null : "active"}`}>
-                       <a onClick={() => setCurrentPage('Work')}>Work</a>
-                        </div>
+                    <button type="button" className={`nav-link ${isActive ? null : "active"}`} onClick={() => setCurrentPage('Work')}>
+                        Work
+                    </button>
                 </li>
                 <li className="nav-item" onClick={handleToggle}>
-                    <div className={`nav-link ${isActive ? null : "active"}`}>
-                    <a onClick={() => setCurrentPage('Contact')}>Contact</a>
-                        
-                        </div>
+                    <button type="button" className={`nav-link ${isActive ? null : "active"}`} onClick={() => setCurrentPage('Contact')}>
+                    Contact
+
+                    </button>
                 </li>
                 <li className="nav-item" onClick={handleToggle}>
-                <div className={`nav-link ${isActive ? null : "active"}`}>
-                <a onClick={() => setCurrentPage('Resume')}>Resume</a>
-                </div>
+                <button type="button" className={`nav-link ${isActive ? null : "active"}`} onClick={() => setCurrentPage('Resume')}>
+                Resume
+                </button>
                 </li>
             </ul>
             <div className={`hamburger ${isActive ?  null : "active"}`} onClick={handleToggle}>

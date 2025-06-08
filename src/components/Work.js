@@ -15,7 +15,7 @@ function Work() {
                     <h3>L3tters</h3>
                     <p>React/Socket.io/GraphQL</p>
                 </div>
-                <a href="http://www.l3tters.com" target="_blank"></a>
+                <a href="http://www.l3tters.com" target="_blank" rel="noreferrer">L3tters Live Site</a>
             </div>
 
         <div className="small-projects">
@@ -25,7 +25,7 @@ function Work() {
                 <h3>Copyright Timer</h3>
                 <p>Foundation/Wikidata API/Google Calendar API</p>
             </div>
-            <a href="https://moses-ian.github.io/copyright-timer/" target="_blank"></a>
+            <a href="https://moses-ian.github.io/copyright-timer/" target="_blank" rel="noreferrer">Copyright Timer Live Site</a>
         </div>
 
             <div className="project" style={{ backgroundImage: `url(${favdashScreenshot})` }}>
@@ -33,7 +33,7 @@ function Work() {
                     <h3>Favdash</h3>
                     <p>Node.js/MySql/Express.js</p>
                 </div>
-                <a href="https://fav-dash.herokuapp.com/" target="_blank"></a>
+                <a href="https://fav-dash.herokuapp.com/" target="_blank" rel="noreferrer">Favdash Live Site</a>
             </div>
 
           
@@ -43,7 +43,7 @@ function Work() {
                     <h3>Code Quiz</h3>
                     <p>Javascript/CSS</p>
                 </div>
-                <a href="https://davidtjgriffin.github.io/javascript-coding-quiz/" target="_blank"></a>
+                <a href="https://davidtjgriffin.github.io/javascript-coding-quiz/" target="_blank" rel="noreferrer">Code Quiz Live Site</a>
             </div>
 
             <div className="project" style={{ backgroundImage: `url(${runbuddyScreenshot})` }}>
@@ -51,7 +51,7 @@ function Work() {
                     <h3>Run Buddy</h3>
                     <p>HTML/CSS</p>
                 </div>
-                <a href="https://davidtjgriffin.github.io/run-buddy/" target="_blank"></a>
+                <a href="https://davidtjgriffin.github.io/run-buddy/" target="_blank" rel="noreferrer">Run Buddy Live Site</a>
             </div>
         </div>
     </div>
