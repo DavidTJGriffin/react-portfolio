@@ -10,7 +10,7 @@ function Resume() {
           <h3>Resume</h3>
         </div>
           <a
-            href={process.env.PUBLIC_URL + '/assets/images/David_Griffin_-_Full_Stack_Web_Developer.pdf'}
+            href={process.env.PUBLIC_URL + "/assets/images/David Griffin's Resume.pdf"}
             target="_blank"
             rel="noreferrer"
             className="resume-link"
