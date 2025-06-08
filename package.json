@@ -15,9 +15,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-with-version": "node scripts/buildWithVersion.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build-with-version",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
