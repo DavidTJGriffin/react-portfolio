@@ -14,8 +14,9 @@ function Resume() {
             target="_blank"
             rel="noreferrer"
             className="resume-link"
-            aria-label="Download resume PDF"
-          ></a>
+          >
+            <span className="sr-only">Download Resume PDF</span>
+          </a>
       </div>
 
     </div>
