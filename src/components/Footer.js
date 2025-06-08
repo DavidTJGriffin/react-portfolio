@@ -12,8 +12,8 @@ function Footer() {
       <div id="contact-list">
         <a className="contact-info" href="tel:+16233414122"><img src={phoneIcon} alt="" /></a>
         <a className="contact-info" href="mailto:david.dtjg2001@gmail.com"><img src={mailIcon} alt="" /></a>
-        <a className="contact-info" href="https://github.com/DavidTJGriffin"><img src={githubLogo} alt="" /></a>
-        <a className="contact-info" href="https://www.linkedin.com/in/david-griffin-a51193195/"><img src={linkedinLogo} alt="" /></a>
+        <a className="contact-info" href="https://github.com/DavidTJGriffin" target="_blank" rel="noreferrer"><img src={githubLogo} alt="" /></a>
+        <a className="contact-info" href="https://www.linkedin.com/in/DavidTJGriffin/" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="" /></a>
       </div>
     </section>
   )
