@@ -9,6 +9,7 @@ import htmlLogo from "../assets/images/htmlLogo.png"
 import reactjsLogo from "../assets/images/reactjsLogo.png"
 import nodejsLogo from "../assets/images/nodejsLogo.png"
 import cssLogo from "../assets/images/cssLogo.png"
+import pythonLogo from "../assets/images/pythonLogo.png"
 
 
 function About() {
@@ -39,7 +40,7 @@ function About() {
             <h1 id="technologies-header">TECHNOLOGIES</h1>
             <div id="logo-box">
                 <img className='logo-img' src={javascriptLogo} alt="" aria-hidden="true" />
-                <img className='logo-img' src={bootstrapLogo} alt="" aria-hidden="true" />
+                <img className='logo-img' src={pythonLogo} alt="" aria-hidden="true" />
                 <img className='logo-img' src={mysqlLogo} alt="" aria-hidden="true" />
                 <img className='logo-img' src={mongodbLogo} alt="" aria-hidden="true" />
                 <img className='logo-img' src={jqueryLogo} alt="" aria-hidden="true" />
