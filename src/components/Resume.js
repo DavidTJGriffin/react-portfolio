@@ -1,5 +1,5 @@
 import React from 'react'
-import resumeScreenshot from "../assets/images/resumeScreenshot.png"
+import resumeScreenshot from "../assets/images/resumeScreenshot_HQ.png"
 
 function Resume() {
   return (
