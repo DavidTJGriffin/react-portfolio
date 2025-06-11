@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navigation(props) {
-  const { currentPage, setCurrentPage } = props;
+  const { currentPage } = props;
 
   useEffect(() => {
     document.title = currentPage
