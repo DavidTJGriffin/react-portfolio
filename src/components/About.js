@@ -1,15 +1,14 @@
 import React from 'react';
 import javascriptLogo from "../assets/images/javascriptLogo.png";
 import aboutPicture from "../assets/images/aboutPictureUpdated.jpg";
-import bootstrapLogo from "../assets/images/bootstrapLogo.png"
-import mysqlLogo from "../assets/images/mysqlLogo.jpg"
-import mongodbLogo from "../assets/images/mongodbLogo.png"
-import jqueryLogo from "../assets/images/jqueryLogo.png"
-import htmlLogo from "../assets/images/htmlLogo.png"
-import reactjsLogo from "../assets/images/reactjsLogo.png"
-import nodejsLogo from "../assets/images/nodejsLogo.png"
-import cssLogo from "../assets/images/cssLogo.png"
-import pythonLogo from "../assets/images/pythonLogo.png"
+import mysqlLogo from "../assets/images/mysqlLogo.jpg";
+import mongodbLogo from "../assets/images/mongodbLogo.png";
+import jqueryLogo from "../assets/images/jqueryLogo.png";
+import htmlLogo from "../assets/images/htmlLogo.png";
+import reactjsLogo from "../assets/images/reactjsLogo.png";
+import nodejsLogo from "../assets/images/nodejsLogo.png";
+import cssLogo from "../assets/images/cssLogo.png";
+import pythonLogo from "../assets/images/pythonLogo.png";
 
 
 function About() {
