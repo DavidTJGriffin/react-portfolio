@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navigation(props) {
   const { currentPage, setCurrentPage } = props;
@@ -37,48 +38,23 @@ function Navigation(props) {
   return (
 
     <nav className="navbar">
-      <a
-        href="#about-me"
-        className="nav-logo"
-        onClick={() => {
-          setCurrentPage('About');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}
-      >
-        David
-      </a>
+      <Link to="/about" className="nav-logo">David</Link>
 
       <ul className={`nav-menu ${isActive ? null : "active"}`}>
-        <li className="nav-item" onClick={() => {
-          handleToggle();
-          setCurrentPage('About');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}>
-          <a href="#about-me" className="nav-link">About</a>
+        <li className="nav-item" onClick={handleToggle}>
+          <Link to="/about" className="nav-link">About</Link>
         </li>
 
-        <li className="nav-item" onClick={() => {
-          handleToggle();
-          setCurrentPage('Work');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}>
-          <a href="#work" className={`nav-link ${isActive ? null : "active"}`}>Work</a>
+        <li className="nav-item" onClick={handleToggle}>
+          <Link to="/work" className={`nav-link ${isActive ? null : "active"}`}>Work</Link>
         </li>
 
-        <li className="nav-item" onClick={() => {
-          handleToggle();
-          setCurrentPage('Contact');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}>
-          <a href="#contact-me" className={`nav-link ${isActive ? null : "active"}`}>Contact</a>
+        <li className="nav-item" onClick={handleToggle}>
+          <Link to="/contact" className={`nav-link ${isActive ? null : "active"}`}>Contact</Link>
         </li>
 
-        <li className="nav-item" onClick={() => {
-          handleToggle();
-          setCurrentPage('Resume');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}>
-          <a href="#resume-me" className={`nav-link ${isActive ? null : "active"}`}>Resume</a>
+        <li className="nav-item" onClick={handleToggle}>
+          <Link to="/resume" className={`nav-link ${isActive ? null : "active"}`}>Resume</Link>
         </li>
 
       </ul>
